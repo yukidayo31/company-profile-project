@@ -22,6 +22,7 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 import Logo from "./Logo";
+import {} from "next/link";
 
 export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
@@ -244,10 +245,10 @@ const NAV_ITEMS = [
   },
   {
     label: "Services",
-    href: "#",
+    href: "/Services",
   },
   {
     label: "Teams",
-    href: "#",
+    href: "/Teams",
   },
 ];

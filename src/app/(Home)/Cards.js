@@ -11,8 +11,11 @@ import {
   Flex,
   Spacer,
 } from "@chakra-ui/react";
+import { useState } from "react";
 
 const Cards = () => {
+  const [activeNav, setActiveNav] = useState("#");
+
   return (
     <SimpleGrid spacing={4} templateColumns="(auto-fill, minmax(200px, 1fr))">
       <Flex>
@@ -24,7 +27,9 @@ const Cards = () => {
             <Text> Who are we? </Text>
           </CardBody>
           <CardFooter>
-            <Button>View here</Button>
+            <a href="/aboutus" onClick={() => setActiveNav("/aboutus")}>
+              <Button>View here</Button>
+            </a>
           </CardFooter>
         </Card>
         <Spacer />
@@ -36,7 +41,9 @@ const Cards = () => {
             <Text>What do we offer?</Text>
           </CardBody>
           <CardFooter>
-            <Button>View here</Button>
+            <a href="/Services" onClick={() => setActiveNav("/Services")}>
+              <Button>View here</Button>
+            </a>
           </CardFooter>
         </Card>
       </Flex>

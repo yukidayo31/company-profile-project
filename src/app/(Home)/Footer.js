@@ -53,17 +53,17 @@ export default function Footer() {
       >
         <Logo />
         <Stack direction={"row"} spacing={6}>
-          <Box as="a" href={"#"}>
+          <Box as="a" href={"/"}>
             Home
           </Box>
-          <Box as="a" href={"#"}>
-            About
+          <Box as="a" href={"/aboutus"}>
+            About Us
           </Box>
-          <Box as="a" href={"#"}>
-            Blog
+          <Box as="a" href={"/Services"}>
+            Services
           </Box>
-          <Box as="a" href={"#"}>
-            Contact
+          <Box as="a" href={"/Teams"}>
+            Teams
           </Box>
         </Stack>
       </Container>
