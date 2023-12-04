@@ -48,9 +48,9 @@ export default function OurCompany() {
               Signify is the world leader in lighting for professionals,
               consumers and lighting for the Internet of Things. Our energy
               efficient lighting products, systems and services enable our
-              customers to enjoy a superior quality of light and make people's
-              lives safer and more comfortable, and businesses more productive
-              and cities more livable.
+              customers to enjoy a superior quality of light and make
+              people&apos;s lives safer and more comfortable, and businesses
+              more productive and cities more livable.
             </chakra.p>
           </Flex>
         </GridItem>

@@ -65,7 +65,7 @@ export default function ProductsService() {
           Our Offers
         </chakra.h2>
         <Text color={"gray.600"} fontSize={{ base: "sm", sm: "lg" }}>
-          We've led the lighting industry with innovations that serve
+          We&apos;ve led the lighting industry with innovations that serve
           professional and consumer markets for more than 127 years. We provide
           our customers with high-quality lighting products, systems and
           services that unlock the extraordinary potential of light for brighter
