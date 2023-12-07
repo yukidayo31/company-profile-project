@@ -13,13 +13,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { ReactElement } from "react";
-import {
-  FcAbout,
-  FcAssistant,
-  FcCollaboration,
-  FcDonate,
-  FcManager,
-} from "react-icons/fc";
+import { FcAssistant, FcCollaboration } from "react-icons/fc";
 
 const Card = ({ heading, description, icon, href }) => {
   return (

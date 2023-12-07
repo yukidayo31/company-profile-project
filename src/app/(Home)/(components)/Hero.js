@@ -14,8 +14,8 @@ import { useState } from "react";
 import OurCompany from "./OurCompany";
 import ProductsService from "./ProductsService";
 import Testi from "./Testi";
-import Footer from "./Footer";
-import Cards from "./Cards";
+import Footer from "../Footer";
+import NextPageNav from "./Cards";
 
 export default function Hero() {
   const [activeNav, setActiveNav] = useState("#");
@@ -75,7 +75,7 @@ export default function Hero() {
           <ProductsService />
           <Testi />
           <Grid>
-            <Cards />
+            <NextPageNav />
           </Grid>
         </Stack>
       </Container>

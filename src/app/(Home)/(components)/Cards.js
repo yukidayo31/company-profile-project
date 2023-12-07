@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   Heading,
@@ -13,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 
-const Cards = () => {
+const NextPageNav = () => {
   const [activeNav, setActiveNav] = useState("#");
 
   return (
@@ -51,4 +52,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default NextPageNav;

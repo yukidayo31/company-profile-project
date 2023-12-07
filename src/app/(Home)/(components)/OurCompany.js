@@ -10,7 +10,7 @@ import {
   GridItem,
   Container,
 } from "@chakra-ui/react";
-import CompanyVid from "./CompanyVid";
+import CompanyVid from "../CompanyVid";
 
 const Feature = ({ heading, text }) => {
   return (
