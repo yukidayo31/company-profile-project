@@ -14,7 +14,6 @@ import { useState } from "react";
 import OurCompany from "./OurCompany";
 import ProductsService from "./ProductsService";
 import Testi from "./Testi";
-import Footer from "../Footer";
 import NextPageNav from "./Cards";
 
 export default function Hero() {
@@ -79,7 +78,6 @@ export default function Hero() {
           </Grid>
         </Stack>
       </Container>
-      <Footer />
     </>
   );
 }

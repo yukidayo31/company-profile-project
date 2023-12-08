@@ -114,11 +114,15 @@ import {
   Text,
   Divider,
   Flex,
+  chakra,
 } from "@chakra-ui/react";
 
 export default function OurTeam() {
   return (
-    <Container maxW={"5xl"} mt={12}>
+    <Container maxW={"5xl"} mt={7} mb={"12"} pb={{ base: 20, md: 20 }}>
+      <chakra.h2 fontSize="3xl" fontWeight={"700"} textAlign={"center"} mb={7}>
+        Meet Our Team!
+      </chakra.h2>
       <Flex flexWrap="wrap" gridGap={6} justify="center">
         <Card maxWidth={"300"}>
           <CardBody>
@@ -136,15 +140,13 @@ export default function OurTeam() {
                 Eric Rondolat
               </Heading>
               <Text fontSize={"12"} paddingBottom={"5"} textAlign={"center"}>
-                Chief Executive Officer (CEO) and Chairman of the Board of
-                Management
+                Chief Executive Officer (CEO)
               </Text>
               <Text textAlign={"justify"} fontSize={"14"}>
-                Eric Rondolat has held the position of Chief Executive Officer
-                and Chairman of the Board of Management at Signify since the
-                company was listed on the Euronext Amsterdam stock exchange in
-                May 2016. He was Executive Vice President and Chief Executive
-                Officer for Lighting at Philips from April 2012 to May 2016.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptas facilis consectetur ut voluptate harum voluptatum
+                labore quae veniam, ab quam nemo architecto! Error fugiat
+                asperiores ipsam aspernatur, architecto laudantium distinctio.
               </Text>
             </Stack>
           </CardBody>
@@ -166,15 +168,42 @@ export default function OurTeam() {
                 Javier Van Engelen
               </Heading>
               <Text fontSize={"12"} paddingBottom={"5"} textAlign={"center"}>
-                Chief Executive Officer (CEO) and Chairman of the Board of
-                Management
+                Chief Financial Officer (CFO)
+              </Text>
+
+              <Text textAlign={"justify"} fontSize={"14"}>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptas facilis consectetur ut voluptate harum voluptatum
+                labore quae veniam, ab quam nemo architecto! Error fugiat
+                asperiores ipsam aspernatur, architecto laudantium distinctio.
+              </Text>
+            </Stack>
+          </CardBody>
+          <Divider />
+        </Card>
+        <Card maxWidth={"300"}>
+          <CardBody>
+            <Center>
+              <Image
+                maxHeight={"200"}
+                src="https://www.signify.com/b-dam/b2b-li/en_AA/investor/governance-leadership/management-board/letizia-mariani-2022.jpg"
+                alt="Green double couch with wooden legs"
+                borderRadius="lg"
+                // width={"40"}
+              />
+            </Center>
+            <Stack mt="6" spacing="3">
+              <Heading size="md" textAlign={"center"}>
+                Maria Letizia Mariani
+              </Heading>
+              <Text fontSize={"12"} paddingBottom={"5"} textAlign={"center"}>
+                Chief Commercial Officer (CCO)
               </Text>
               <Text textAlign={"justify"} fontSize={"14"}>
-                Eric Rondolat has held the position of Chief Executive Officer
-                and Chairman of the Board of Management at Signify since the
-                company was listed on the Euronext Amsterdam stock exchange in
-                May 2016. He was Executive Vice President and Chief Executive
-                Officer for Lighting at Philips from April 2012 to May 2016.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptas facilis consectetur ut voluptate harum voluptatum
+                labore quae veniam, ab quam nemo architecto! Error fugiat
+                asperiores ipsam aspernatur, architecto laudantium distinctio.
               </Text>
             </Stack>
           </CardBody>
