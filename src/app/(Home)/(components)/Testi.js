@@ -97,7 +97,7 @@ export default function Testi() {
           <chakra.h2 fontSize="3xl" fontWeight="700">
             Our Clients Speak
           </chakra.h2>
-          <Text>We have been working with clients around the world</Text>
+          <Text>What they say about us</Text>
         </Stack>
         <Stack
           direction={{ base: "column", md: "row" }}
@@ -113,10 +113,10 @@ export default function Testi() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-5.jpg"
               }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              name={"Tamara Kyle"}
+              title={"Paris"}
             />
           </Testimonial>
           <Testimonial>
@@ -129,10 +129,10 @@ export default function Testi() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
+                "https://techbriefly.com/wp-content/uploads/2023/02/AI-impersonation-Fake-name-generators-this-person-does-not-exist-images-and-more-1.jpg"
               }
-              name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              name={"Jack Smith"}
+              title={"New York"}
             />
           </Testimonial>
           <Testimonial>
@@ -148,7 +148,7 @@ export default function Testi() {
                 "https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80"
               }
               name={"Jane Cooper"}
-              title={"CEO at ABC Corporation"}
+              title={"Germany"}
             />
           </Testimonial>
         </Stack>

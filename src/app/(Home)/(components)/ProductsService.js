@@ -12,7 +12,7 @@ import {
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { ReactElement } from "react";
+import { ReactElement, useState } from "react";
 import { FcAssistant, FcCollaboration } from "react-icons/fc";
 
 const Card = ({ heading, description, icon, href }) => {
@@ -43,15 +43,22 @@ const Card = ({ heading, description, icon, href }) => {
             {description}
           </Text>
         </Box>
-        <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
-          Learn more
-        </Button>
+        <a
+          href="/Services/#service-choice"
+          onClick={() => setActiveNav("/Services/#service-choice")}
+        >
+          <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
+            Learn more
+          </Button>
+        </a>
       </Stack>
     </Box>
   );
 };
 
 export default function ProductsService() {
+  const [activeNav, setActiveNav] = useState("/");
+
   return (
     <Box p={4}>
       <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
@@ -75,7 +82,6 @@ export default function ProductsService() {
             description={
               "Energy-efficient LED lighting and smart lighting control minimizes lighting energy usage and help you achieve your sustainability goals."
             }
-            href={"#"}
           />
           <Card
             heading={"For Consumers"}
@@ -83,7 +89,6 @@ export default function ProductsService() {
             description={
               "Whether setting the mood in the living room or brightening up your kitchen, our energy-efficient LED lamps and luminaires offer customizable solutions."
             }
-            href={"#"}
           />
         </Flex>
       </Container>

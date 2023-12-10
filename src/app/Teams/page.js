@@ -1,13 +1,15 @@
 "use client";
-import React from "react";
+
 import Navbar from "../(Home)/Navbar";
+import OurTeam from "../aboutus/(contents)/OurTeam";
+import Footer from "../(Home)/Footer";
 
-const page = () => {
+export default function page() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <OurTeam />
+      <Footer />
+    </>
   );
-};
-
-export default page;
+}
