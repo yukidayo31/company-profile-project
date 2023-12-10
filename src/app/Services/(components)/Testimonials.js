@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 // import "./styles.css";
 
 // import required modules
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 // import Chakra UI
 import {
